@@ -22,7 +22,7 @@
 
     .topnav {
         background-color: #333;
-        padding: 30px 20px;
+        padding: 14px 16px;
         text-align: center;
         display: flex;
         justify-content: space-between;
@@ -31,15 +31,23 @@
     .topnav a {
         color: white;
         text-decoration: none;
-        padding: 30px 20px;
+        font-size: 17px;
+        padding: 14px 16px;
+        display: inline-flex;
     }
 
-    .bodyimg {
+    .topnav img {
+        width: 22px;
+        height: 22px;
+        display: inline-flex;
+        vertical-align: middle;
+    }
+
+    .bodydiv {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 22.40;
-        margin: 10;
+        justify-content: center;
+        align-content: center;
+        gap: 10%;
     }
 </style>
 
@@ -54,23 +62,35 @@
             <a href="#acessorios">Acessórios</a>
         </div>
         <div>
-            <img src="/imagens/compra.png" alt="Carrinho" >
+            <img src="/imagens/compra.png" alt="Carrinho">
             <a href="#carrinho">Carrinho de Compras</a>
         </div>
     </nav>
-    <div class="bodyimg">
-        <div>
-            <img src="/imagens/jaqueta.jpg" alt="Jaqueta">
-        </div>
-        <div>
-            <img src="/imagens/bone.jpg" alt="Boné">
+    <div class="bodydiv">
 
-        </div>
         <div>
             <img src="/imagens/jaqueta.jpg" alt="Jaqueta">
+            <p>Jaqueta de couro - Roupa</p>
+            <p>00,00</p>
+            <button>Comprar</button>
         </div>
         <div>
             <img src="/imagens/bone.jpg" alt="Boné">
+            <p>Boné - Acessórios</p>
+            <p>00,00</p>
+            <button>Comprar</button>
+        </div>
+        <div>
+            <img src="/imagens/jaqueta.jpg" alt="Jaqueta">
+            <p>Jaqueta de couro - Roupa</p>
+            <p>00,00</p>
+            <button>Comprar</button>
+        </div>
+        <div>
+            <img src="/imagens/bone.jpg" alt="Boné">
+            <p>Boné - Acessórios</p>
+            <p>00,00</p>
+            <button>Comprar</button>
         </div>
     </div>
 </body>
